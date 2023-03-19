@@ -18,3 +18,6 @@ https://www.ibm.com/products/datapower-gateway
 
 
 
+# IBM ISVA foundations : need to download this
+
+https://www.ibm.com/training/course/TW108G
