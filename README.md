@@ -12,4 +12,9 @@ IBM Security Access Manager - Appliance Monitoring (March 2019) by IBM Security 
 IBM Security Community – IBM Security Verify group: IBM Security Verify - IBM Security Community
  
 
+# IBM Data power - training learning module:
+
+https://www.ibm.com/products/datapower-gateway
+
+
 
