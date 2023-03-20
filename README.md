@@ -16,6 +16,9 @@ https://community.ibm.com/community/user/security/blogs/sylvain-gilbert/2021/08/
 
 https://www.ibm.com/products/datapower-gateway
 
+![IMG_4686 1647](https://user-images.githubusercontent.com/35003840/226233897-a4c70d75-47bc-411c-9b3d-82ddc68a4140.PNG)
+
+![IMG_4687 1649](https://user-images.githubusercontent.com/35003840/226233919-b3b46d0c-6a91-4b25-be79-081bf2617d5c.PNG)
 
 
 # IBM ISVA foundations : need to download this
