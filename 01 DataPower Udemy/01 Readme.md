@@ -22,7 +22,14 @@ https://www.ibm.com/docs/en/datapower-gateway/7.5.0?topic=docker-running-datapow
 
 For Datapower image : `docker pull ibmcom/datapower-operator-catalog` 
 
-docker run -it -v $PWD/config_myConfig:/drouter/config -v $PWD/local_mylocal:/drouter/local -e DATAPOWER_ACCEPT_LICENSE=true -e DATAPOWER_INTERACTIVE=true -e DATAPOWER_WORKER_THREADS=4 -p 9090:9090 
+Run the Image as container : 
+
+`docker run -it -v $PWD/config_myConfig:/drouter/config -v $PWD/local_mylocal:/drouter/local -e DATAPOWER_ACCEPT_LICENSE=true -e DATAPOWER_INTERACTIVE=true -e DATAPOWER_WORKER_THREADS=4 -p 9090:9090 --name DatapowerWindows 55b72d4a8abb5c476b3e8e9242d725943bff006b9f6fbcde981228b7a237b6e5`
+
+So Once the IDG(IBM Datapower Gateway) container is created, we will login as `admin` and pwd : `admin`
+
+Now, The IDG console is created like below : 
+
 
 
 ----- 
