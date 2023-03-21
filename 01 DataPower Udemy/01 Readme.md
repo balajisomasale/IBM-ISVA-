@@ -53,7 +53,7 @@ Now, The IDG console is created like below :
 
 ### File Management in  Data Power : 
 
-
+Start from here 
 
   
   
