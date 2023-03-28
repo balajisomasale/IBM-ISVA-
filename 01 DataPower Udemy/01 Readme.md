@@ -141,8 +141,71 @@ XML Firewall - Static endpoint
   
   ![image](https://user-images.githubusercontent.com/35003840/228117710-67cab6f3-c808-4d16-8cef-62ab6da90594.png)
 
+- XSLT Transformation : 
+  we can copy that format as `file.xls` then upload it as file in `transform`   
+    
+    ![image](https://user-images.githubusercontent.com/35003840/228118556-b7cfccf3-7290-4c82-abbb-c1362ce4cd91.png)
+    
+    ![image](https://user-images.githubusercontent.com/35003840/228118916-a6f32b19-5416-464b-8686-dc0e99d4e791.png)
+
+- Apply it and exit out and then apply in firewall and move to `Front End - local address` and choose already created one
+ 
+  ![image](https://user-images.githubusercontent.com/35003840/228119591-70fd82a9-d030-43b4-8d72-de8eacdcc305.png)
   
-  
+- then `Apply` and then `Save Configuration` 
+
+Testing the configuration : 
+
+![image](https://user-images.githubusercontent.com/35003840/228119879-4f1a8936-13f9-45e8-b372-2cef2760a43e.png)
+
+Result in `Response Body` : 
+
+![image](https://user-images.githubusercontent.com/35003840/228120000-990cf7a3-bbce-47eb-8ef9-f661d02ae373.png)
+
+---------
+
+XML Firewall - Static Backend : 
+
+- Since the type is `Static Backend`, we will have to provide the `Backend - Remote Host address` 
+- We can mention the `Front end address` of `MockService`(previous one - `response`) as `Backend` as a request to it 
+
+![image](https://user-images.githubusercontent.com/35003840/228120799-be21002f-a41c-4eaf-9bb2-862c750fb056.png)
+
+Flow : 
+
+![image](https://user-images.githubusercontent.com/35003840/228121866-c01a0a9e-247d-468b-9839-a4445fd05b38.png)
+
+
+- Create a `Static Policy Server` - We need to create 2 separate rules 
+- 1 for`Client to server` and other is  `server to client `. 
+
+Creating Policy server for `Client to server` : 
+- we need to create NEW `match` 
+![image](https://user-images.githubusercontent.com/35003840/228121632-45f82f41-f6f9-432f-9c8d-c89de5980f38.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228121741-1bd19b9e-c0eb-49b3-ae00-4f3cb0c9b461.png)
+
+Creating Pilicy server for `Server to Client` 
+
+Here we need to send the server(Datapower) data format with `Transformation` to the client 
+
+![image](https://user-images.githubusercontent.com/35003840/228122725-08a9a4a2-186e-4385-88c4-883fef05671d.png)
+
+Saving the configuration : 
+![image](https://user-images.githubusercontent.com/35003840/228122893-62b01f69-e7e7-44c4-a94d-03cf0ed099dc.png)
+
+Testing the configuration : 
+
+![image](https://user-images.githubusercontent.com/35003840/228123269-3c5047a1-2517-42a2-9157-7d2b4ed8f23f.png)
+
+
+Note : We can check both the ports(Backend and frontend) in the URL to check if the data is accurate and valid 
+
+-------------------------
+### XML Firewall - Dynamic Endpoint 
+
+Start from here 
+
 
 
   
