@@ -246,6 +246,52 @@ Flow :
 ![image](https://user-images.githubusercontent.com/35003840/228322040-4735c1f8-21e0-4937-be31-bf3f28daa3ad.png)
 
 
+Testing Configuration : 
+
+- If the Card type is `card` or `netbanking` it will give `SUCCESS (200 status) `
+- If not, it will give `Status 500`
+
+![image](https://user-images.githubusercontent.com/35003840/228328663-1072342c-314f-4555-9034-0c829ce686c4.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228328982-750302c9-4e13-4d90-a623-6b7a3d756c5f.png)
+
+To view the logs of each and every activity : 
+  
+  ![image](https://user-images.githubusercontent.com/35003840/228329276-ca7a0022-3c5f-4820-bf27-0a291ffa7e76.png)
+
+  ![image](https://user-images.githubusercontent.com/35003840/228329418-377bc728-e6a2-4c79-a22c-78963489b081.png)
+
+------------------
+
+
+### How to test using commands : 
+
+- Earlier, We used `Test message` via GUI 
+- Open the Docker container, In which we have CLI -> we can use `CURL` the `HTTPS` service 
+- `curl -H "content-Type:text/xml" --data-binary @request1.xml http://172.17.0.2:2050/payment` where `-H` is header and the content type can be `text/xml` or `application/json` or other 
+  
+  ![image](https://user-images.githubusercontent.com/35003840/228330003-e79e71b7-65ec-4d5b-8e47-e5d3bfb10ce3.png)
+
+------------------
+
+### Create XML firewall service for JSON 
+message: 
+
+- XML firewall that accepts JSON service 
+- Create a service that can have loopback with processing policy with Matching rules -> Both Directions 
+- created `/json1` URL in the matching rule 
+- Since its Both directions, we will give `1 Matching rule` and send the `response back`
+
+![image](https://user-images.githubusercontent.com/35003840/228332230-7ad16fb2-4fcb-4442-881e-a3730ac91b56.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228332767-dcdff6f0-137e-4586-abf0-e57392723e6b.png)
+
+Overall Configuration created : 
+
+![image](https://user-images.githubusercontent.com/35003840/228333140-bf6345f2-a749-4794-9138-95be3009bf65.png)
+
+
+
 
 
   
