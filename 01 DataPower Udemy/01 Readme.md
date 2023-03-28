@@ -303,9 +303,7 @@ Overall Configuration created :
 
 ### XSL Transformation - for-each loop 
 
-Start from here 
-
-  
+watch again 
   
 
 
