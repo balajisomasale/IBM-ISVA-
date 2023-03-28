@@ -53,7 +53,97 @@ Now, The IDG console is created like below :
 
 ### File Management in  Data Power : 
 
-Start from here 
+![image](https://user-images.githubusercontent.com/35003840/228106097-454b5394-5ff2-4382-95dd-80cda5345755.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228106135-26b553c8-b8aa-428f-ab16-fb7501d3222e.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228106222-c2cd922e-4aa4-40cf-8dc0-ea858b856d3b.png)
+
+The usage in the file management in Datapower creates files in the local host itself 
+
+![image](https://user-images.githubusercontent.com/35003840/228109678-7581b052-b482-4bb4-bc70-1ff3bfc34aae.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228109770-deaba5f2-0666-45d5-acc9-5f517c25777e.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228109827-c486aced-bd4e-4601-a533-b30240ab373d.png)
+
+### CLI in data power : 
+
+![image](https://user-images.githubusercontent.com/35003840/228109965-a0ff9d7e-a38b-44ad-8ab2-f34c09f21d1a.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228110304-2e06943a-a5e5-4927-aef8-875fc6d06c5e.png)
+
+we can directly open this directory in the cli and can access the files that are present in the file management 
+
+### XML Firewall : 
+
+![image](https://user-images.githubusercontent.com/35003840/228110632-73d0c570-e598-4eaf-87ec-56d8a4a80efa.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228111148-fa46014d-dd48-443f-b726-a6d41f0cfb2e.png)
+
+Resources : 
+Uploaded the local zip folder 
+
+### XML server as loopback server : 
+![image](https://user-images.githubusercontent.com/35003840/228111647-82c9ac6b-1bc7-4d65-8a8b-32a9629e850b.png)
+
+Using XML firewall in services > Click Advanced or wizard to add a service 
+
+![image](https://user-images.githubusercontent.com/35003840/228111751-b338ee8d-1e25-4756-9360-7314f5a296c1.png)
+
+Types :
+
+1) Static Backend : 
+  We can see the back end details that are required 
+
+![image](https://user-images.githubusercontent.com/35003840/228113182-c8d4dd95-1346-4000-b298-30a87f2bc7ad.png)
+
+2) Loopback :
+  It does not require the backend server details 
+  
+  ![image](https://user-images.githubusercontent.com/35003840/228113427-a5e879a3-f107-49c0-acf2-a21b69eac5f0.png)
+
+https://www.ibm.com/docs/en/datapower-gateway/10.0.1?topic=firewall-creating-xml-wizard
+
+Processing Policy : 
+
+![image](https://user-images.githubusercontent.com/35003840/228113804-818e7eab-b1bc-4807-83c1-16022bd99d25.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228114086-f63b918d-faa5-4ffb-933c-90a23054137d.png)
+
+Saving the configuration
+
+![image](https://user-images.githubusercontent.com/35003840/228114713-c3aa9867-47d6-41bd-b0de-b475f1011df4.png)
+
+Testing the configuration : 
+- If we get the status code as 200, which means it is `SUCCESS` 
+  
+  ![image](https://user-images.githubusercontent.com/35003840/228115004-d089aa39-64b3-44fe-b631-350d2bf6e0ab.png)
+
+  ![image](https://user-images.githubusercontent.com/35003840/228115323-dc183f98-774f-47b3-8c7b-9dddcff4e433.png)
+ 
+  ![image](https://user-images.githubusercontent.com/35003840/228115501-ea96191d-b88e-4e63-92e1-90eb1bc2a610.png)
+  
+XML Firewall - Static endpoint 
+  
+![image](https://user-images.githubusercontent.com/35003840/228115969-f837b57d-72be-4584-8972-b7ca7b7171bb.png)
+
+- We are creating Mock Service : choose looback which does not require back end 
+   ![image](https://user-images.githubusercontent.com/35003840/228116441-8d1d032f-5387-4513-90a5-cc1346d8a6e0.png)
+
+- We will create processing policy with customised match 
+   ![image](https://user-images.githubusercontent.com/35003840/228117136-6c7f0cfd-5c17-4b84-941e-5daf69c7a400.png)
+
+- Customised match :
+  ![image](https://user-images.githubusercontent.com/35003840/228117262-c3b368fe-9022-4f18-b86a-72601482b3ec.png)
+
+- We will get `Request` in below format like `customer` to `bank` using `XSLT Transformation`
+  
+  ![image](https://user-images.githubusercontent.com/35003840/228117710-67cab6f3-c808-4d16-8cef-62ab6da90594.png)
+
+  
+  
+
 
   
   
