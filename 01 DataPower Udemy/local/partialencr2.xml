@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customer>
+<name>Prashant</name>
+<xenc:EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"><xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><dsig:KeyInfo xmlns:dsig="http://www.w3.org/2000/09/xmldsig#"><xenc:EncryptedKey Recipient="name:EncryptionTest"><xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/><dsig:KeyInfo><dsig:KeyName>EncryptionTest</dsig:KeyName></dsig:KeyInfo><xenc:CipherData><xenc:CipherValue>OzygEga34BS8ssYNBwYDXTCeDbzcYQjLy8Qasd3xr3SpmOFHmgjgw6Vc30aZJMqZ9m4jSaOk4YBiJ1+YMbMOkvHHcIFigQ3jMs4oDsDjZyF+nSIdEMHriDfzJkyU/zUUVixCGqQEbVkFf0oTWoEpCSqlFxwkWoUKLo3QFjH9H7FML4IiQ6ZkOCkj1uLWh2D55SOBVD6YG5kdadicUnplxhys7N7FUzSsNs1n8gFNQKsL1PDyD8fnBw1MpenwPq9F3vs5zcP5xHRVvPmQhxZ49xg+qBsQlFSpOOaFvVg9OzuY/zVFhQHWbVXA1nZIwaU/26DGroVWFoHY63L4wsPgbg==</xenc:CipherValue></xenc:CipherData></xenc:EncryptedKey></dsig:KeyInfo><xenc:CipherData><xenc:CipherValue>84Ms4RgqERWgtbpW939ucMidpWbb8gLL/Xqz46OWwy/mjLGL8P8lgg==</xenc:CipherValue></xenc:CipherData></xenc:EncryptedData>
+<amount>45000</amount>
+<paymentType>card</paymentType>
+</Customer>

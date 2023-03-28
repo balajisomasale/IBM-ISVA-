@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Customer>
+<name1>Prashant</name1>
+<ID>980898989</ID>
+<amount>45000</amount>
+<paymentType>card</paymentType>
+</Customer>
