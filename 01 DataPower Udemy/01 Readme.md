@@ -204,7 +204,47 @@ Note : We can check both the ports(Backend and frontend) in the URL to check if 
 -------------------------
 ### XML Firewall - Dynamic Endpoint 
 
-Start from here 
+![image](https://user-images.githubusercontent.com/35003840/228311661-4e3eb286-856f-4e17-8356-bcf6fe9b5a76.png)
+
+- Creating `Mock service2` with policy services in both the directions 
+
+![image](https://user-images.githubusercontent.com/35003840/228315872-0ddd2cb1-ef50-4fe0-b2b1-da4513cffec5.png)
+
+Testing the configuration :
+
+![image](https://user-images.githubusercontent.com/35003840/228316510-e187b7da-7e3d-4e61-a3c9-49120726e0a1.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228316602-26906ef1-3d97-44a1-9be3-7c19a6bd2dd0.png)
+
+Creating Dynamic Endpoint : 
+
+![image](https://user-images.githubusercontent.com/35003840/228317064-d34d8cff-e32e-47f3-adf2-ebcacd1be40f.png)
+
+- Type will be `Dynamic Backend` and will create 2 rules for `client to server` and then `server to client`
+
+Client to Server : 
+
+![image](https://user-images.githubusercontent.com/35003840/228318494-e3b06e6f-c2c1-46a7-b50a-2ddbce56c3f1.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228318616-860e943e-daa4-413e-8cc8-2cce5dac0989.png)
+
+- We will be using `Route` option that we can drag and drop from toolbar
+- We use `Xpath to select Destination` and then add `XPath Routing Path` and create `Rule` in it
+
+![image](https://user-images.githubusercontent.com/35003840/228319309-b7704fda-963a-4b7d-bb9f-3d702e72c839.png)
+
+![image](https://user-images.githubusercontent.com/35003840/228320867-b554210a-ddd1-46ca-a0f8-3adab4f8dad3.png)
+
+Note : The `XPath Expression` can be created by checking(Viewing) the type ; Here it is `Card` type 
+
+![image](https://user-images.githubusercontent.com/35003840/228321187-8d5d71f0-1565-4c84-b1f8-625e2a7ec2f7.png)
+
+Flow : 
+
+- Patch is over, routing is over; Based on card, the request goes to Route 
+
+![image](https://user-images.githubusercontent.com/35003840/228322040-4735c1f8-21e0-4937-be31-bf3f28daa3ad.png)
+
 
 
 
