@@ -290,9 +290,20 @@ Overall Configuration created :
 
 ![image](https://user-images.githubusercontent.com/35003840/228333140-bf6345f2-a749-4794-9138-95be3009bf65.png)
 
+- Now, We will try to upload files in `File Management` from GUI and check the local files are getting the `json` files or not : local > Upload files > select files from directory > `sample1.json` 
 
+![image](https://user-images.githubusercontent.com/35003840/228384846-e6d2fc43-56bf-4369-8001-ef673a210446.png)
 
+- Checking that in `CLI` and executing curl request here 
+- `cd to local` folder; use `curl -H "content-Type:test/json" --data-binary @sample.xml http://172.17.0.2:2053/json1`
 
+![image](https://user-images.githubusercontent.com/35003840/228385866-3ec2f096-890d-41f4-8f85-01256a13e9ed.png)
+
+-------------
+
+### XSL Transformation - for-each loop 
+
+Start from here 
 
   
   
