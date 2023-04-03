@@ -379,7 +379,21 @@ How to Create it :
 - Create a advanced service and add the `processing policy server`with matching rules 
 - Create a matching rule as below : 
 
+![image](https://user-images.githubusercontent.com/35003840/229391556-078d0e34-4c6b-42e7-9e8c-fdc3764f927f.png)
 
+- Creating 2 rules; one for ` Client to server` and other is `Server to Client`
+- attached the `Mock service` that was created earlier as `backend` response
+- We can choose so many different communication protocols inside this Mutli-protocol gateway 
+
+### Create service to accept HTTP communications from https protocol 
+
+![image](https://user-images.githubusercontent.com/35003840/229392646-3cc85279-c80e-4cb8-922f-5871d9d2164f.png)
+
+- We need to search for `Crypto Tools` to create certificates 
+
+![image](https://user-images.githubusercontent.com/35003840/229392962-d185a58c-03a6-4d34-8fcd-a315763c2604.png)
+
+![image](https://user-images.githubusercontent.com/35003840/229392990-22ddf48d-fff9-4e89-925e-3ca624e49013.png)
 
 
 
