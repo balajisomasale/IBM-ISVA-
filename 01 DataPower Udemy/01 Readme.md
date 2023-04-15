@@ -425,10 +425,26 @@ Testing :
 
 ## Section 6 : Security Related:
 
-### 17 Encryptuon and Decryption : 
+### 17 Encryption and Decryption : 
 
+![image](https://user-images.githubusercontent.com/35003840/232178742-5f2fbfba-312b-41ff-8ca3-9aae519bbac3.png)
 
-Start from here 
+- We can use `Crypto Tools` from the search in Datapower Dashboard 
 
+![image](https://user-images.githubusercontent.com/35003840/232179130-c743d78c-a4e2-4ae7-a9f2-27cdd6d4c7b1.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232179214-1d80b308-9e9a-4fa0-8350-5829f8d18259.png)
+
+- So applying this to the Matching rules to perform the activities. 
+
+![image](https://user-images.githubusercontent.com/35003840/232179465-04d0871c-aee2-40f7-be01-e172109b77fb.png)
+
+- creating policy policy 
+
+![image](https://user-images.githubusercontent.com/35003840/232179554-719fb39d-c931-4281-8ad9-c2f14511c2ba.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232179582-0c51a3af-e97e-4c22-9fab-99279f2a1378.png)
+
+stopped 5.40
 
 ----- 
