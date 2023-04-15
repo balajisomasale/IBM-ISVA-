@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Customer>
-<name>Prashant</name>
-<xenc:EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" xmlns:xenc="http://www.w3.org/2001/04/xmlenc#"><xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/><dsig:KeyInfo xmlns:dsig="http://www.w3.org/2000/09/xmldsig#"><xenc:EncryptedKey Recipient="name:DEFAULT"><xenc:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-1_5"/><dsig:KeyInfo><dsig:KeyName>DEFAULT</dsig:KeyName></dsig:KeyInfo><xenc:CipherData><xenc:CipherValue>*Named certificate 'DEFAULT' not found*</xenc:CipherValue></xenc:CipherData></xenc:EncryptedKey></dsig:KeyInfo><xenc:CipherData><xenc:CipherValue>*Named certificate 'DEFAULT' not found*</xenc:CipherValue></xenc:CipherData></xenc:EncryptedData>
-<amount>45000</amount>
-<paymentType>card</paymentType>
-</Customer>
