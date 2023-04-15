@@ -525,5 +525,69 @@ When Tampered the data -> It should Fail ::
 
 ### Validate Action : 
 
-BRB 
+![image](https://user-images.githubusercontent.com/35003840/232247376-e4b14179-8c95-42a1-967e-d5dfbd069b69.png)
+
+- We are going to validate if the format in any file is XML schema or not :
+
+![image](https://user-images.githubusercontent.com/35003840/232247717-02ba9731-02c0-4848-a755-d27489f93f4d.png)
+
+- Matching rule : 
+
+![image](https://user-images.githubusercontent.com/35003840/232247742-ad1f330e-8034-4dbb-9d6e-8154f3511531.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232247767-54c2de80-4379-4322-8f43-2f96326388fb.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232247794-1303b244-8b35-4cf6-b31f-8ffdbf8410b2.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232247933-7d2ef429-07f0-4b3d-8a5e-c0c0fc514dd2.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232248031-0f123571-84fb-4e70-abde-7a16ef0682d4.png)
+
+Check : 
+
+- placing string in ID format 
+![image](https://user-images.githubusercontent.com/35003840/232248152-1f76f2fe-18f0-49d7-ba62-4e478e52d9b7.png)
+
+- placing int in ID format : 
+
+![image](https://user-images.githubusercontent.com/35003840/232248173-346a6235-0dab-4ec6-b708-c9c10c927a96.png)
+
+-------
+
+### Implement AAA : 
+
+Def: 
+![image](https://user-images.githubusercontent.com/35003840/232248193-1568d04f-f11e-40a6-a9a5-2df8ddaace62.png)
+
+Implementation : 
+
+![image](https://user-images.githubusercontent.com/35003840/232248359-9b20b483-5b4b-4f81-a46b-f8231bb0f7ee.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232248430-c206f8de-e9c7-41b3-9da3-4282d4da4da9.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232248612-0b410400-b83a-4e33-98f4-e49fe75195c6.png)
+
+
+- There are default files that we can use when using AAA 
+![image](https://user-images.githubusercontent.com/35003840/232248599-d03b570d-9458-4a1c-9ae5-0821617df470.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232248634-7637bb9d-6065-41c4-b313-9f7f6f324933.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232248642-199d1808-7983-4c3e-a8ba-2e8887f0e364.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232248673-d273fcbd-8d78-4f29-b868-f8d075e0e869.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232248818-0fc5ecac-60dc-4020-a77b-a85a3b27c9f4.png)
+
+-------
+
+### Logging and Log Target : 
+
+![image](https://user-images.githubusercontent.com/35003840/232248843-b03b2f84-1d08-49c5-80ba-be1ae5591450.png)
+
+start from beginning 
+
+
+
+
 
