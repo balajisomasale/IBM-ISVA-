@@ -445,6 +445,85 @@ Testing :
 
 ![image](https://user-images.githubusercontent.com/35003840/232179582-0c51a3af-e97e-4c22-9fab-99279f2a1378.png)
 
-stopped 5.40
+![image](https://user-images.githubusercontent.com/35003840/232243978-eedc7e43-f230-4b8f-b4a1-87c67695c98c.png)
+
+Message : 
+
+![image](https://user-images.githubusercontent.com/35003840/232244695-847a5091-5357-49b3-8f41-e0e57a95cb66.png)
+
+Encryption : 
+
+![image](https://user-images.githubusercontent.com/35003840/232244524-34a1fe4c-7768-4372-975a-db30e2e7d11c.png)
+
+Decryption : 
+
+![image](https://user-images.githubusercontent.com/35003840/232244805-d1ecc0b7-28b9-40e4-9816-836a192afa7c.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232244934-bda902f1-1d81-4677-a1dd-38b70ddd01ff.png)
+
+
+-----------
+
+### FIELD Level Encryption : 
+
+Partial Encryption : 
+
+![image](https://user-images.githubusercontent.com/35003840/232244971-aa6673f4-c0f8-49a3-ba6d-fca2f6f028e3.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232245069-3386c585-5878-4e83-9827-684da7460351.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232245062-6e907214-ca77-4686-a1ba-ce325972893c.png)
+
+- We are using `Encryption` symbol : 
+
+![image](https://user-images.githubusercontent.com/35003840/232245186-85136475-c275-4c3b-a984-a456fc54d94b.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232245268-3a9cd5e5-23de-4816-94fd-d6cd071177bc.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232245454-a37dea4f-e5d0-46d1-9667-6fd7ee7d1e6d.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232245586-5e422edd-5ec9-4178-a76c-56cd84fb3893.png)
+
+- Now, We can use `Decryption` action here
+
+![image](https://user-images.githubusercontent.com/35003840/232245766-fc1508ee-ed3b-4b84-9ed5-9ccfe3f90165.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232245864-cb37a6cf-7a7d-45f9-94b2-2fbe64f4887a.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232246096-2dd94a2e-53dd-4f3f-980e-3b95d2c1a405.png)
 
 ----- 
+
+### Sign and Verify : 
+
+![image](https://user-images.githubusercontent.com/35003840/232246189-52c205e2-56ca-4723-a7fd-1cd8b5a7755b.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232246278-e2ecdc87-c23b-44f9-b565-65151dad61e4.png)
+
+
+- We will use `Sign` symbol to sign the image 
+
+![image](https://user-images.githubusercontent.com/35003840/232246352-e3fbdc7d-ec10-43aa-a418-057c4ccf2cdb.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232246728-dfcf4716-2cfe-474f-b037-944eb394a36e.png)
+
+Sign : 
+
+![image](https://user-images.githubusercontent.com/35003840/232246783-ac9e97ba-49a3-4f8b-8549-565ede9fc2eb.png)
+
+![image](https://user-images.githubusercontent.com/35003840/232246793-028fed38-d6d6-47c9-a63b-3307cf6e5064.png)
+
+Verify : 
+
+![image](https://user-images.githubusercontent.com/35003840/232246941-1f4885b7-22c9-4f4f-9467-1e83249b4e50.png)
+
+When Tampered the data -> It should Fail :: 
+
+![image](https://user-images.githubusercontent.com/35003840/232247088-904a9492-b925-4315-8316-0a0a5fbd68c7.png)
+
+--------
+
+### Validate Action : 
+
+BRB 
+
